@@ -1,0 +1,49 @@
+    margin:10;
+    padding:10;
+    box-sizing: border-box;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 60%;
+	}
+	50% {
+		background-position: 90% 60%;
+	}
+	100% {
+		background-position: 0% 60%;
+	}
+}
+.form input{
+    width: 90%;
+    height: 40px;
+    outline:none;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.content{
+    width: 60%;
+    height: 80%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-self: flex-start;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);}
+
+tr{
+    margin-top: 10px;
+    transition: .2s;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid rgb(146, 146, 146);
+    border-radius: 10px;
+}
